@@ -1,8 +1,16 @@
-Bandit 0-1
-#Goal: Find the password for the next file
-#procedure 
-ssh
+# Bandit 0→1
+
+## Goal
+
+Find the password for the next level.
+
+## Procedure
+
+```bash
 ssh bandit0@bandit.labs.overthewire.org -p 2220
-#code
-ls
-cat readme
+```
+
+## Commands used
+>ls
+>
+>cat
