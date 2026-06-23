@@ -3,5 +3,10 @@ from scapy.all import sniff
 def packet_callback(packet):
     print(packet.summary())
 
-print("Listening")
-sniff(prn=packet_callback, store=False)
+sniff(
+    prn=packet_callback,
+    store=False,
+    count=20
+)
+
+print("Captured 20 packets. Stopping.")
