@@ -4,7 +4,7 @@ Cybersecurity basics starting with Bandits ( On the Wire), scanners, MMAPS and W
 # Skills Gained 
 > Complete linux command system
 > 
-> MMAPS
+> NMAPS
 > 
 > Packets and packaging using wireshark
 > 
