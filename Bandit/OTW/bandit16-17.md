@@ -16,3 +16,6 @@ The credentials for the next level can be retrieved by submitting the password o
 >
 >  echo "password" | openssl s_client -connect localhost:31790 -quiet
 
+# Problems Faced
+Got lost after the RSA Private Key
+
