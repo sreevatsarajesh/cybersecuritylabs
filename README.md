@@ -38,13 +38,8 @@ This repository will continue to grow as I learn new topics in:
 CyberSecurityLabs/
 │
 ├── BannerGrabber/
-├── PortScanner/
+├── OTW/
 ├── PacketSniffer/
-├── LogParser/
-├── IOCExtractor/
-├── CTF/
-├── Linux/
-├── Notes/
 └── README.md
 ```
 
