@@ -138,8 +138,8 @@ This repository serves as my public learning journal.
 * [x] Basic Networking
 * [x] Socket Programming
 * [x] Banner Grabber
+* [x] Packet Sniffer
 * [ ] Port Scanner
-* [ ] Packet Sniffer
 * [ ] Log Parser
 * [ ] IOC Extractor
 * [ ] Digital Forensics Tools
