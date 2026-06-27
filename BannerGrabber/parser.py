@@ -34,3 +34,24 @@ def parse_ftp_or_smtp_banner(banner: str) -> dict:
         "message": message,
         "raw_banner": banner
     }
+
+def parse_unknown_banner(banner: str) -> dict:
+    return {
+        "protocol": "UNKNOWN",
+        "raw_banner": banner
+    }
+
+def parse_banner(banner: str) -> dict:
+    banner = banner.strip()
+
+    if banner.startswith("SSH-"):
+        return parse_ssh_banner(banner)
+
+    elif banner.startswith("HTTP/"):
+        return parse_http_banner(banner)
+
+    elif banner.startswith("220"):
+        return parse_ftp_or_smtp_banner(banner)
+
+    else:
+        return parse_unknown_banner(banner)
