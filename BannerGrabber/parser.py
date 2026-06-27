@@ -18,4 +18,19 @@ def parse_http_banner(banner: str) -> dict:
         "raw_banner": banner
     }
 
+def parse_ftp_or_smtp_banner(banner: str) -> dict:
+    message = banner[4:] if len(banner) > 4 else ""
 
+    protocol = "UNKNOWN"
+
+    if "ESMTP" in message or "SMTP" in message:
+        protocol = "SMTP"
+    elif "FTP" in message or "FileZilla" in message:
+        protocol = "FTP"
+
+    return {
+        "protocol": protocol,
+        "status_code": banner[:3],
+        "message": message,
+        "raw_banner": banner
+    }
