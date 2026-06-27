@@ -79,7 +79,6 @@ Future Improvements
 * Port Scanner
 * HTTP Header Analyzer
 * DNS Enumeration Tool
-* Packet Sniffer
 * Log Parser
 * IOC Extractor
 * File Integrity Monitor
