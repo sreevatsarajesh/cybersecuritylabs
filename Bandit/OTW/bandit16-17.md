@@ -19,3 +19,5 @@ The credentials for the next level can be retrieved by submitting the password o
 # Problems Faced
 Got lost after the RSA Private Key
 
+Tried logging into bandit17 through bandit16, need to logout, save the private key locally and then login into bandit17
+
