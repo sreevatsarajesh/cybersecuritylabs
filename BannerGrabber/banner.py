@@ -1,6 +1,27 @@
 from scanner import grab_banner
 from parser import parse_banner
+from utils import (
+    validate_port,
+    resolve_hostname,
+    print_banner,
+)
 
-banner=grab_banner(host,port)
-info = parse.banner(banner)
-print(info)
+HOST = "scanme.nmap.org"
+PORT = 22
+
+if not validate_port(PORT):
+    raise ValueError("Invalid Port")
+
+IP = resolve_hostname(HOST)
+
+banner = grab_banner(HOST, PORT)
+
+info = parse_banner(banner)
+
+print_banner("Banner Grabber")
+
+print(f"Host      : {HOST}")
+print(f"IP        : {IP}")
+print(f"Port      : {PORT}")
+print(f"Protocol  : {info.get('protocol')}")
+print(f"Raw Banner: {info.get('raw_banner')}")
