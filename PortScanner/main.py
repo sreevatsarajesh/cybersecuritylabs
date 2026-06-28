@@ -1,10 +1,10 @@
 from scanner import scan_port
 HOST = "scanme.nmap.org"
+PORTS = [20,21,22,23,25,53,80,110,143,443]
+for port in PORTS:
 
-ports = [22,80,443]
+    if scan_port(HOST, port):
+        print(f"{port:<5} OPEN    {get_service_name(port)}")
 
-for port in ports:
-    if scan_port(HOST,port):
-        print(f"{port} OPEN")
     else:
-        print(f"{port} CLOSED")
+        print(f"{port:<5} CLOSED  {get_service_name(port)}")
