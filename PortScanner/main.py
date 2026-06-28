@@ -1,4 +1,5 @@
 from scanner import scan_port
+from utils import get_service_name
 HOST = "scanme.nmap.org"
 PORTS = [20,21,22,23,25,53,80,110,143,443]
 for port in PORTS:
