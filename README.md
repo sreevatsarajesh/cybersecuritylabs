@@ -133,7 +133,7 @@ This repository serves as my public learning journal.
 * [x] Socket Programming
 * [x] Banner Grabber
 * [x] Packet Sniffer
-* [ ] Port Scanner
+* [x] Port Scanner
 * [ ] Log Parser
 * [ ] IOC Extractor
 * [ ] Digital Forensics Tools
