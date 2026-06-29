@@ -15,9 +15,7 @@ response = requests.post(
     stream=True,
     timeout=TIMEOUT
 )
-
 print()
-
 for line in response.iter_lines():
 
     if line:
