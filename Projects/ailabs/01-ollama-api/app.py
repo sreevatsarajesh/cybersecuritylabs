@@ -1,5 +1,5 @@
 import requests
-url = "https://localhost:11434/api/generate"
+url = "http://localhost:11434/api/generate"
 payload = {
     "model": "qwen2.5-coder:14b",
     "prompt": "Say hello in one sentence.",
