@@ -1,6 +1,6 @@
 from parser import parse_line
 
-LOG_FIlE="sample_logs/sample.log"
+LOG_FILE="sample_logs/sample.log"
 
 with open(LOG_FILE,"r") as file:
     for line in file:
