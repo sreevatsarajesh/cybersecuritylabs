@@ -1,10 +1,10 @@
-from pathlib import Path
 from parser import parse_line
+from utils import get_log_path, read_log_file
 
-BASE_DIR = Path(__file__).parent
-LOG_FILE = BASE_DIR / "sample_logs" / "sample.log"
+LOG_FILE = get_log_path("sample.log")
 
-with LOG_FILE.open("r") as file:
-    for line in file:
-        parsed = parse_line(line)
-        print(parsed)
+lines = read_log_file(LOG_FILE)
+
+for line in lines:
+    parsed = parse_line(line)
+    print(parsed)
