@@ -1,10 +1,7 @@
 import requests
-
 URL = "http://localhost:11434/api/generate"
 MODEL = "qwen2.5-coder:14b"
-
 print("Type 'exit' to quit.\n")
-
 while True:
 
     prompt = input("You > ")
@@ -20,7 +17,6 @@ while True:
             "stream": False
         }
     )
-
     print("\nAI >")
     print(response.json()["response"])
     print()
