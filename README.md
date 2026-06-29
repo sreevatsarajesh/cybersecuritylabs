@@ -134,7 +134,7 @@ This repository serves as my public learning journal.
 * [x] Banner Grabber
 * [x] Packet Sniffer
 * [x] Port Scanner
-* [ ] Log Parser
+* [x] Log Parser
 * [ ] IOC Extractor
 * [ ] Digital Forensics Tools
 
