@@ -1,0 +1,8 @@
+Jun 28 12:01:10 kali sshd[2143]: Failed password for root from 192.168.1.10 port 55123 ssh2
+Jun 28 12:02:15 kali sshd[2143]: Accepted password for admin from 192.168.1.20 port 51422 ssh2
+Jun 28 12:03:01 kali sudo: user1 : TTY=pts/0 ; PWD=/home/user1 ; USER=root ; COMMAND=/bin/apt update
+Jun 28 12:04:12 kali systemd[1]: Started Network Manager.
+Jun 28 12:05:30 kali sshd[2155]: Failed password for invalid user guest from 203.0.113.50 port 49152 ssh2
+Jun 28 12:06:44 kali sshd[2162]: Accepted publickey for developer from 192.168.1.15 port 53211 ssh2
+Jun 28 12:07:18 kali cron[3001]: (root) CMD (backup.sh)
+Jun 28 12:08:55 kali kernel: Firewall dropped packet from 198.51.100.25 to 192.168.1.10
