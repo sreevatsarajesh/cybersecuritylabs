@@ -1,18 +1,19 @@
 import json
 import requests
 
-URL = "http://localhost:11434/api/generate"
+from config import URL, MODEL, TIMEOUT
 
 prompt = input("Prompt > ")
 
 response = requests.post(
     URL,
     json={
-        "model": "qwen2.5-coder:14b",
+        "model": MODEL,
         "prompt": prompt,
         "stream": True
     },
-    stream=True
+    stream=True,
+    timeout=TIMEOUT
 )
 
 print()

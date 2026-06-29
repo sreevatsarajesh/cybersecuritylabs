@@ -1,41 +1,30 @@
 # 01 - Ollama API
 
-My first project using Ollama.
+A beginner-friendly Python project demonstrating how to communicate with a locally running Ollama model using its REST API.
 
 ## Features
 
-- Basic API request
+- Simple API request
 - Interactive chatbot
 - Streaming responses
+- Centralized configuration
+- Reusable helper functions
 
 ## Files
 
-app.py
-- Simple API call
+- `app.py` - Basic API request
+- `chat.py` - Interactive chatbot
+- `stream.py` - Streaming output
+- `config.py` - Application configuration
+- `utils.py` - Shared helper functions
 
-chat.py
-- Interactive chatbot
+## Requirements
 
-stream.py
-- Streaming chatbot
+- Python 3.12+
+- Ollama
+- requests
 
-requirements.txt
-- Python dependencies
-
-## Installation
+## Install
 
 ```bash
 pip install -r requirements.txt
-```
-
-Run Ollama
-
-```bash
-ollama serve
-```
-
-Run
-
-```bash
-python app.py
-```
