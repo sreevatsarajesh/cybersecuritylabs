@@ -1,5 +1,7 @@
 # Goal 
 Find the password in http://natas0.natas.labs.overthewire.org/
+Username: natas1
+URL:      http://natas1.natas.labs.overthewire.org
 
 # Finding it 
 Click F12
