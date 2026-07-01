@@ -16,7 +16,6 @@ patterns = {
 
     "cve": r"\bCVE-\d{4}-\d{4,7}\b",
 }
-
 def extract_iocs(text: str) -> dict:
     results = {}
     for ioc_type, pattern in patterns.items():
