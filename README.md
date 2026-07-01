@@ -135,7 +135,7 @@ This repository serves as my public learning journal.
 * [x] Packet Sniffer
 * [x] Port Scanner
 * [x] Log Parser
-* [ ] IOC Extractor
+* [x] IOC Extractor
 * [ ] Digital Forensics Tools
 
 ---
