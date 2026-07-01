@@ -149,3 +149,6 @@ This repository is primarily a personal learning project, but suggestions, ideas
 # ⭐ Future Vision
 
 My long-term goal is to build a collection of cybersecurity tools while developing a strong understanding of computer networks, operating systems, digital forensics, and defensive security.
+
+# Disclaimer
+This Repository is strictly for educational purposes, do not copy or test systems without permission
